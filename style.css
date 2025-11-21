@@ -39,6 +39,6 @@ body {
 }
 
 .key.active {
-    background: gold;
+    background: blue;
     transform: scale(1.05);
 }
