@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+body {
+    text-align: center;
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.piano {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.key {
+    width: 70px;
+    height: 200px;
+    background: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 4px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s all ease-in;
+    user-select: none;
+}
+
+.key.active {
+    background: gold;
+    transform: scale(1.05);
+}
