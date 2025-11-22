@@ -18,9 +18,11 @@ body {
 
 .piano {
     display: flex;
+        align-items: flex-end;
+
     justify-content: center;
- align-items: flex-end;
-    margin-top: 50px;
+    align-items: flex-end;
+    margin-bottom: 50px;
 }
 
 .key {
